@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "include": ["/courses/*", "/updates/*", "/gallery/*", "/sitemap.xml", "/robots.txt"],
+  "exclude": ["/assets/*"]
+}

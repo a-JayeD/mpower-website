@@ -1,0 +1,1 @@
+Source artwork. `brand-mark.svg` is the default logo (also used as public/favicon.svg and drawn inline by components/layout/Brand.tsx). Upload a real logo in the Admin Dashboard (Settings → Logo) and the website uses that instead.

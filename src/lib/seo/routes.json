@@ -1,0 +1,46 @@
+{
+  "siteName": { "bn": "এম.পাওয়ার ইঞ্জিনিয়ারিং", "en": "M.Power Engineering" },
+  "defaultImage": "/og-default.png",
+  "routes": {
+    "/": {
+      "title": { "bn": "এম.পাওয়ার ইঞ্জিনিয়ারিং | ইলেকট্রনিক্স ও ইলেকট্রিক্যাল প্রশিক্ষণ কেন্দ্র", "en": "M.Power Engineering | Electronics & Electrical Training Center" },
+      "description": { "bn": "বাংলাদেশে হাতে-কলমে ইলেকট্রনিক্স, ইলেকট্রিক্যাল ও ইন্ডাস্ট্রিয়াল অটোমেশন প্রশিক্ষণ। কোর্স, ফি, ক্লাসের সময় ও যোগাযোগের তথ্য।", "en": "Hands-on electronics, electrical and industrial automation training in Bangladesh. Courses, fees, class schedules and contact details." }
+    },
+    "/about": {
+      "title": { "bn": "আমাদের সম্পর্কে | এম.পাওয়ার ইঞ্জিনিয়ারিং", "en": "About | M.Power Engineering" },
+      "description": { "bn": "এম.পাওয়ার ইঞ্জিনিয়ারিং কারা, কী শেখায় এবং কীভাবে হাতে-কলমে প্রশিক্ষণ দেয়।", "en": "Who M.Power Engineering is, what we teach, and how our practical training works." }
+    },
+    "/courses": {
+      "title": { "bn": "কোর্সসমূহ | এম.পাওয়ার ইঞ্জিনিয়ারিং", "en": "Courses | M.Power Engineering" },
+      "description": { "bn": "সব কোর্সের ক্লাস সংখ্যা, মেয়াদ ও ভর্তি ফি এক জায়গায়।", "en": "Every course with its number of classes, duration and joining fee." }
+    },
+    "/instructors": {
+      "title": { "bn": "প্রশিক্ষক | এম.পাওয়ার ইঞ্জিনিয়ারিং", "en": "Instructors | M.Power Engineering" },
+      "description": { "bn": "যাঁরা ক্লাস নেন — তাঁদের অভিজ্ঞতা ও বিশেষজ্ঞতা।", "en": "The people who teach the classes, and what they specialise in." }
+    },
+    "/gallery": {
+      "title": { "bn": "গ্যালারি | এম.পাওয়ার ইঞ্জিনিয়ারিং", "en": "Gallery | M.Power Engineering" },
+      "description": { "bn": "প্রশিক্ষণ, ওয়ার্কশপ, ল্যাব ও ইন্ডাস্ট্রিয়াল ভিজিটের ছবি।", "en": "Photos from training sessions, workshops, the lab and industrial visits." }
+    },
+    "/updates": {
+      "title": { "bn": "আপডেট ও নোটিশ | এম.পাওয়ার ইঞ্জিনিয়ারিং", "en": "Updates & notices | M.Power Engineering" },
+      "description": { "bn": "নতুন ব্যাচ, ভর্তি, ওয়ার্কশপ ও ছুটির নোটিশ।", "en": "New batches, admissions, workshops and holiday notices." }
+    },
+    "/success-stories": {
+      "title": { "bn": "সাফল্যের গল্প | এম.পাওয়ার ইঞ্জিনিয়ারিং", "en": "Success stories | M.Power Engineering" },
+      "description": { "bn": "আমাদের প্রাক্তন শিক্ষার্থীরা এখন কোথায় কাজ করছেন।", "en": "Where our former students are working now." }
+    },
+    "/faq": {
+      "title": { "bn": "সাধারণ প্রশ্ন | এম.পাওয়ার ইঞ্জিনিয়ারিং", "en": "FAQ | M.Power Engineering" },
+      "description": { "bn": "ভর্তি, ক্লাস, মেয়াদ ও প্রশিক্ষণ নিয়ে সাধারণ প্রশ্নের উত্তর।", "en": "Answers about admission, classes, duration and training." }
+    },
+    "/contact": {
+      "title": { "bn": "যোগাযোগ ও ভর্তি তথ্য | এম.পাওয়ার ইঞ্জিনিয়ারিং", "en": "Contact & admission | M.Power Engineering" },
+      "description": { "bn": "ঠিকানা, ফোন, হোয়াটসঅ্যাপ, ম্যাপ এবং বার্তা পাঠানোর ফর্ম।", "en": "Address, phone, WhatsApp, map and a form to send us a message." }
+    },
+    "/privacy": {
+      "title": { "bn": "গোপনীয়তা নীতি | এম.পাওয়ার ইঞ্জিনিয়ারিং", "en": "Privacy | M.Power Engineering" },
+      "description": { "bn": "যোগাযোগ ফর্মে দেওয়া তথ্য আমরা কীভাবে ব্যবহার ও সংরক্ষণ করি।", "en": "How we use and store what you send through the contact form." }
+    }
+  }
+}
