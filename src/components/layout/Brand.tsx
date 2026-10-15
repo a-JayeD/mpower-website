@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import currentLogo from '../../../image/logo.png';
 import { mediaUrl } from '@/lib/api';
 import { useI18n } from '@/lib/i18n';
 import { useSettings } from '@/hooks/useSettings';
+import { cn } from '@/utils/cn';
 
 /** Default mark: an IC package whose traces form an "M". Replaced by the uploaded logo when there is one. */
 export function BrandMark({ className }: { className?: string }) {
@@ -16,7 +16,7 @@ export function BrandMark({ className }: { className?: string }) {
   );
 }
 
-export function Brand({ compact }: { compact?: boolean }) {
+export function Brand({ compact, onDark = true }: { compact?: boolean; onDark?: boolean }) {
   const { lang } = useI18n();
   const s = useSettings();
   const logo = mediaUrl(s?.logo_path);
@@ -27,10 +27,11 @@ export function Brand({ compact }: { compact?: boolean }) {
   return (
     <Link to="/" className="flex min-h-[48px] items-center gap-3" aria-label={`${primary} — ${lang === 'bn' ? 'হোম' : 'Home'}`}>
       {logo ? <img src={logo} alt="" className="h-10 w-10 rounded-md bg-white object-contain p-0.5" width={40} height={40} />
-        : <>
-          <img src={currentLogo} alt="" className="h-auto w-[180px] max-w-full rounded-sm bg-white object-contain" width={2172} height={724} />
-          <span className="sr-only">{primary}{!compact ? ` — ${secondary}` : ''}</span>
-        </>}
+        : <BrandMark className="h-10 w-10 shrink-0" />}
+      <span className="leading-tight">
+        <span className={cn('block whitespace-nowrap font-display text-[16px] font-semibold sm:text-[17px]', onDark ? 'text-white' : 'text-ink')}>{primary}</span>
+        {!compact && <span className={cn('hidden text-[13px] sm:block', onDark ? 'text-white/60' : 'text-ink-muted')} lang={lang === 'bn' ? 'en' : 'bn'}>{secondary}</span>}
+      </span>
     </Link>
   );
 }
