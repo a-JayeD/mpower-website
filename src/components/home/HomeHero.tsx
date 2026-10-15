@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import heroBackground from '../../../image/bg.png';
 import { useI18n } from '@/lib/i18n';
