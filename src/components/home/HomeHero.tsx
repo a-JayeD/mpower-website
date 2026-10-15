@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import heroBackground from '../../../image/bg.png';
 import { useI18n } from '@/lib/i18n';
 import { useSettings } from '@/hooks/useSettings';
 import type { Course } from '@/types/content';
@@ -18,6 +19,8 @@ export function HomeHero({ courses }: { courses: Course[] | undefined }) {
 
   return (
     <section aria-labelledby="hero-title" className="on-dark tech-grid relative overflow-hidden bg-board text-white">
+      <div aria-hidden className="pointer-events-none absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `linear-gradient(rgba(15, 30, 54, 0.68), rgba(15, 30, 54, 0.68)), url(${heroBackground})` }} />
       {/* soft cyan bloom behind the chip, the only gradient on the site */}
       <div aria-hidden className="pointer-events-none absolute -right-40 top-10 h-[34rem] w-[34rem] rounded-full bg-trace/10 blur-3xl" />
       <div className="container-x relative grid items-center gap-10 pb-10 pt-12 sm:pt-16 lg:grid-cols-[1.1fr_1fr] lg:gap-6 lg:pb-14 lg:pt-20">
