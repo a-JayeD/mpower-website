@@ -50,7 +50,7 @@ export const en = {
   facts: {
     label: 'At a glance',
     teach: 'What we teach',
-    teachValue: (n: string) => `${n} courses in electronics, electrical and automation`,
+    teachValue: (n: string) => `${n} courses in electronics, automation and industrial maintenance`,
     fee: 'Joining fee',
     feeValue: (min: string, max: string) => (min === max ? `৳${min}` : `৳${min} – ৳${max}`),
     length: 'Course length',
